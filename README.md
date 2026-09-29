@@ -156,6 +156,7 @@ vivo la posición y velocidad de cada articulación.
 Control-Brazo-De-Robot/
 ├── main.py                     # Programa principal en Python (PC): PyBullet + panel Tkinter
 ├── brazo.urdf                  # Modelo del robot (base, brazo1, brazo2, pinza y dedos)
+├── requirements.txt             # Dependencias de Python
 ├── esp32_sensores/
 │   └── esp32_sensores.ino      # Firmware del ESP32: lee potenciómetros y envía por UART
 ├── docs/                       # Capturas y videos de demostración
@@ -188,7 +189,7 @@ Control-Brazo-De-Robot/
 **Instalación de dependencias de Python:**
 
 ```bash
-pip install pybullet pyserial
+pip install -r requirements.txt
 ```
 
 > ℹ️ `pybullet_data`, `time`, `math` y `tkinter` vienen incluidos con PyBullet o con la
