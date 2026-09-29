@@ -126,21 +126,7 @@ vivo la posición y velocidad de cada articulación.
 
 <div align="center">
 
-```
-🎛️  Potenciómetros (J1, J2, GRIP)
-        │  lectura ADC (0-4095)
-        ▼
-📟  ESP32 (esp32_sensores.ino)
-        │  mapea a grados 0°-180°
-        │  UART @ 115200 baudios, cada 100 ms
-        │  "J1:120,J2:80,GRIP:45"
-        ▼
-🐍  main.py (PC)
-        │  parsea la línea CSV
-        │  convierte grados -> rango real del joint (brazo.urdf)
-        ├──▶ 🦾 PyBullet: mueve joint_1, joint_2, dedos (POSITION_CONTROL)
-        └──▶ 🖥️ Tkinter: panel con posición/velocidad en vivo
-```
+<img src="docs/im%C3%A1genes/arquitectura.png" width="820" alt="Diagrama de arquitectura general del sistema"/>
 
 </div>
 
@@ -161,6 +147,7 @@ Control-Brazo-De-Robot/
 │   └── esp32_sensores.ino      # Firmware del ESP32: lee potenciómetros y envía por UART
 ├── docs/                       # Capturas y videos de demostración
 │   ├── imágenes/
+│   │   ├── arquitectura.png
 │   │   ├── Circuito con Potenciometros Manejo del Robot.jpeg
 │   │   ├── Prueba Robot.jpeg
 │   │   └── Prueba Robot Visualizando Manejo del Circuito.jpeg
