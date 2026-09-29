@@ -79,7 +79,7 @@ vivo la posición y velocidad de cada articulación.
 <table>
   <tr>
     <td align="center">
-      <img src="docs/im%C3%A1genes/Circuito%20con%20Potenci%C3%B3metros%20Manejo%20del%20Robot.jpeg" width="480"/><br/>
+      <img src="docs/im%C3%A1genes/Circuito%20con%20Potenciometros%20Manejo%20del%20Robot.jpeg" width="480"/><br/>
       <sub>Montaje físico: ESP32 + 3 potenciómetros</sub>
     </td>
     <td align="center">
@@ -110,9 +110,9 @@ vivo la posición y velocidad de cada articulación.
 
 <div align="center">
 
-**GIF — brazo respondiendo a los potenciómetros:**
+**GIF — el codo (J2) girando en la simulación:**
 
-<img src="docs/videos/GIF%20Prueba%20Robot.gif" width="480" alt="GIF prueba del robot" />
+<img src="docs/videos/GIF%20Codo%20Robot.gif" width="480" alt="GIF del codo del robot en movimiento" />
 
 **GIF — circuito físico controlando la simulación:**
 
@@ -166,7 +166,7 @@ Control-Brazo-De-Robot/
 │   └── videos/
 │       ├── Prueba Robot.mp4
 │       ├── Prueba Robot Visualizando Manejo del Circuito.mp4
-│       ├── GIF Prueba Robot.gif
+│       ├── GIF Codo Robot.gif
 │       └── GIF Circuito.gif
 └── README.md
 ```
